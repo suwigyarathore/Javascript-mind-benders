@@ -12,7 +12,7 @@ For running individual test and analysis
 
 ``` jest jest reversestring/test.js --watch ```
 
-And ou are good to go!! play around with problems and check if test are still passing.
+And you are good to go!! play around with problems and check if test are still passing.
 
 ## Problem solved
 
@@ -21,3 +21,4 @@ And ou are good to go!! play around with problems and check if test are still pa
 * Reversing a Integer (*Love It*)
 * Maxchar
 * Fizzbuzz 
+* Array Chunking
