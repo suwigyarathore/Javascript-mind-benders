@@ -19,3 +19,4 @@ And ou are good to go!! play around with problems and check if test are still pa
 * String reversal
 * Palindrome check
 * Reversing a Integer (*Love It*)
+* Maxchar
