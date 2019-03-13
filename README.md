@@ -23,3 +23,4 @@ And you are good to go!! play around with problems and check if test are still p
 * Fizzbuzz 
 * Array Chunking
 * Anagrams
+* Capitalization
