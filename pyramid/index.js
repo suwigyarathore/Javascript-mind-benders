@@ -14,6 +14,36 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+// Solution 1
+// function pyramid(n) {
+//   const middle = Math.floor((2 * n - 1) / 2);
+//   for (let row = 0; row < n; row++) {
+//     let pyramid = "";
+//     for (let col = 0; col < n * 2 - 1; col++) {
+//       col >= middle - row && col <= middle + row
+//         ? (pyramid += "#")
+//         : (pyramid += " ");
+//     }
+//     console.log(pyramid);
+//   }
+// }
+
+// Solution 2
+function pyramid(n, row = 0, level = "") {
+  if (n === row) {
+    return;
+  } else {
+    if (level.length === n * 2 - 1) {
+      console.log(level);
+      return pyramid(n, row + 1);
+    }
+    const middle = Math.floor((2 * n - 1) / 2);
+    level =
+      level.length >= middle - row && level.length <= middle + row
+        ? (level += "#")
+        : (level += " ");
+    return pyramid(n, row, level);
+  }
+}
 
 module.exports = pyramid;
