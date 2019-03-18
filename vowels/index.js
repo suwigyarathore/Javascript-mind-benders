@@ -7,6 +7,15 @@
 //   vowels('Why do you ask?') --> 4
 //   vowels('Why?') --> 0
 
-function vowels(str) {}
+// Solution 1
+// function vowels(str) {
+//   return str.split("").filter(char => "aeiou".includes(char.toLowerCase()))
+//     .length;
+// }
 
+// Solution 2
+function vowels(str) {
+  const matches = str.match(/[aeiou]/gi);
+  return matches ? matches.length : 0;
+}
 module.exports = vowels;
