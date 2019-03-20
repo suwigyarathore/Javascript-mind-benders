@@ -28,4 +28,4 @@ And you are good to go!! play around with problems and check if test are still p
 * Pyramid problem
 * Vowel Identifier
 * Matrix spiral
-* Fibonacci Solution (Iterative)
+* Fibonacci Solution (Iterative & Recursive solution with memoization)
